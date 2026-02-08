@@ -4,15 +4,24 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   lang: 'zh-CN',
+  head: [
+    // ['link', { rel: 'icon', href: '/images/favicon.ico' }],
+    ["meta", {"name": "keywords", "content": "VPN,网络安全,隐私保护,技术博客"}],
+    ["meta", {"name": "description", "content": "开发、运维、科学上网相关内容，打破技术壁垒"}],
+  ],
   theme: plumeTheme({
+    // logo: '/images/logo.svg',
     home: '/',
     hostname: 'https://vpnsum.net',
     footer: { message: "© 2026 CFF 版权所有" },
+
     navbar: [
+
     ],
     profile: {
         name: 'CFF',
         description: '一个神秘的IT程序猿',
+        // avatar: '/images/logo.svg',
       },
     social: [
         { icon: 'github', link: 'https://github.com/haandiiong' },
