@@ -1,0 +1,84 @@
+# ==============================
+# vpnsum.net 严格 SEO 优化 robots.txt
+# 专为 VPN / 游戏加速内容设计
+# ==============================
+
+# ------------------------------
+# 针对所有搜索引擎
+User-agent: *
+
+# ------------------------------
+# 屏蔽后台、登录、临时或缓存目录
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /test/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /cgi-bin/
+
+# ------------------------------
+# 屏蔽重复内容、分页和参数 URL
+Disallow: /tag/
+Disallow: /category/
+Disallow: /search/
+Disallow: /author/
+Disallow: /page/
+Disallow: /*?*
+
+# ------------------------------
+# 允许抓取的核心内容目录
+Allow: /posts/
+Allow: /blogs/
+Allow: /posts/*
+
+# ------------------------------
+# 指定站点地图，加速索引
+Sitemap: https://vpnsum.net/sitemap.xml
+
+# ------------------------------
+# 针对 Google 特殊指令（可选）
+User-agent: Googlebot
+Crawl-delay: 1
+
+# ------------------------------
+# 针对 Bing 特殊指令（可选）
+User-agent: bingbot
+Crawl-delay: 2
+
+# ------------------------------
+# 针对非主流爬虫（AI/商业机器人）
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+# ==============================
+# 说明：
+# 1. Disallow 屏蔽无用或重复内容，集中 SEO 权重。
+# 2. Allow 明确核心目录，保证抓取。
+# 3. Sitemap 提供索引加速。
+# 4. Crawl-delay 控制抓取频率，保护服务器。
+# 5. 屏蔽非主流 AI 爬虫，不影响搜索引擎。
+# ==============================
