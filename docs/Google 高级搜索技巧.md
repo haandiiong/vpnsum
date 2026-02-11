@@ -168,3 +168,8 @@ site:github.com intitle:VPN filetype:md
 对于希望获取全球信息、技术资源和高质量内容的用户来说，高级搜索是一个长期值得投入学习的技能。
 
 建议将这些技巧融入日常使用中，你会明显感受到搜索效率的提升。
+
+## 延伸阅读
+
+- [全球信息高效获取方法指南](https://vpnsum.net/blogs/share/)
+- [YouTube 高质量内容筛选方法](https://vpnsum.net/blogs/youtube-high-quality-content-filtering/)
