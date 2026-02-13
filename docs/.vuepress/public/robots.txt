@@ -21,7 +21,7 @@ Disallow: /cgi-bin/
 
 # ------------------------------
 # 屏蔽重复内容、分页和参数 URL
-Disallow: /tag/
+Disallow: /blog/
 Disallow: /category/
 Disallow: /search/
 Disallow: /author/
